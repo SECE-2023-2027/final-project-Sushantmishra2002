@@ -3,7 +3,7 @@ import { useState } from 'react';
 export default function CreateBlogForm({ onAdd }) {
   const [title, setTitle] = useState('');
   const [excerpt, setExcerpt] = useState('');
-  const [content, setContent] = useState('');
+  const [content, setContent] = useState(''); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
