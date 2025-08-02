@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 export const metadata = {
-  title: 'Formal Blog Website',
+  title: 'ScreenNote',
   description: 'A formal and aesthetic blog website built with Next.js and Tailwind CSS.',
 };
 

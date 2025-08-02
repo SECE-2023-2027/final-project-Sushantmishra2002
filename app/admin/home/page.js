@@ -29,9 +29,9 @@ const AdminHome = () => {
         <Navbar role="admin" />
         <h1 className={styles["admin-dashboard-title"]}>All Blogs</h1>
         {loading ? (
-          <p>Loading blogs...</p>
+          <p>Loading notes...</p>
         ) : blogs.length === 0 ? (
-          <p>No blogs found.</p>
+          <p>No notes found.</p>
         ) : (
           <div className="blog-cards-grid">
             {blogs.map((blog) => (

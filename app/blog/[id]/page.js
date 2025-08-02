@@ -16,7 +16,7 @@ export default function BlogDetailPage({ params }) {
     }
   }, [id]);
 
-  if (!blog) return <div className="text-center py-12">Blog not found.</div>;
+  if (!blog) return <div className="text-center py-12">Notes Not Found !.</div>;
 
   return (
     <section className="max-w-2xl mx-auto">

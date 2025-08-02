@@ -48,10 +48,10 @@ export default function AdminDashboard() {
         <h1 className="admin-dashboard-title">Admin Dashboard</h1>
         {error && <div className="error mb-4">{error}</div>}
         {loading ? (
-          <div>Loading blogs...</div>
+          <div>Loading notes...</div>
         ) : (
           <div className="blog-cards-grid-2col">
-            {blogs.length === 0 && <div>No blogs found.</div>}
+            {blogs.length === 0 && <div>No notes found.</div>}
             {blogs.map(blog => (
               <div key={blog.id} className="blog-card">
                 <h3 className="blog-title">{blog.title}</h3>

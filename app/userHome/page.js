@@ -27,11 +27,11 @@ const UserHome = () => {
     <div className={styles["user-dashboard-bg"]}>
       <div className={styles["user-dashboard-container"]}>
         <Navbar role="user" />
-        <h1 className={styles["user-dashboard-title"]}>All Blogs</h1>
+        <h1 className={styles["user-dashboard-title"]}>All Notes</h1>
         {loading ? (
-          <p>Loading blogs...</p>
+          <p>Loading notes...</p>
         ) : blogs.length === 0 ? (
-          <p>No blogs found.</p>
+          <p>No notes found.</p>
         ) : (
           <div className="blog-cards-grid">
             {blogs.map((blog) => (

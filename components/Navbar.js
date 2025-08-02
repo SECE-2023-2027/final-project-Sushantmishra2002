@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md border-b border-gray-200 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold text-blue-900 tracking-tight">FormalBlog</Link>
+        <Link href="/" className="text-2xl font-bold text-blue-900 tracking-tight">ScreenNote</Link>
         <ul className="flex space-x-8 text-lg font-medium items-center">
           {isAdmin && (
             <>
@@ -37,7 +37,7 @@ export default function Navbar() {
           )}
           {user && !isAdmin && (
             <>
-              <li><Link href="/listofblogs" className="text-gray-700 hover:text-blue-700 transition">Blogs</Link></li>
+              <li><Link href="/listofblogs" className="text-gray-700 hover:text-blue-700 transition">Notes</Link></li>
               <li><Link href="/create" className="text-gray-700 hover:text-blue-700 transition">Create</Link></li>
               <li><Link href="/userProfile" className="text-gray-700 hover:text-blue-700 transition">Profile</Link></li>
             </>

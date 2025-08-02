@@ -16,7 +16,7 @@ export default function CreateBlogForm({ onAdd }) {
 
   return (
     <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow p-6 border border-gray-200 flex flex-col gap-4 mb-8">
-      <h2 className="text-xl font-bold text-blue-900 mb-2">Create New Blog</h2>
+      <h2 className="text-xl font-bold text-blue-900 mb-2">Create New Notes</h2>
       <input
         type="text"
         placeholder="Title"

@@ -52,9 +52,9 @@ export default function ListOfBlogs() {
 
   return (
     <div className="admin-dashboard">
-      <h1>Your Blogs</h1>
+      <h1>Your Notes</h1>
       {blogs.length === 0 ? (
-        <div>No blogs found.</div>
+        <div>No notes found.</div>
       ) : (
         <ul className="blog-list">
           {blogs.map(blog => (

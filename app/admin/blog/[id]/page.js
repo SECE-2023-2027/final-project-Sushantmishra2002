@@ -28,7 +28,7 @@ export default function BlogDetails() {
   }, [id]);
 
   if (loading) return <div className="admin-dashboard">Loading...</div>;
-  if (error || !blog) return <div className="admin-dashboard">Blog not found.</div>;
+  if (error || !blog) return <div className="admin-dashboard">Notes Not Found !.</div>;
 
   return (
     <div className="admin-dashboard">
